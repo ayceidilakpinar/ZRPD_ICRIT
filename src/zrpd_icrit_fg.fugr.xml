@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>İCRA FONKSİYON GRUBU</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZRPD_ICRIT_FGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZRPD_ICRIT_FG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZRPD_ICRIT_FM_SABIT</FUNCNAME>
+     <SHORT_TEXT>İcra Sabitler Atama Alma</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_MODE</PARAMETER>
+       <DEFAULT>&apos;E&apos;</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_DOCNR</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>P9660-DOCNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_WAERS</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>P9660-DEDWA</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_DOCNR</PARAMETER>
+       <TYP>P9660-DOCNR</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_WAERS</PARAMETER>
+       <TYP>P9660-DEDWA</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_MODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tek basamaklı gösterge</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DOCNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>İcra SAP No</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_WAERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Para birimi anahtarı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_DOCNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>İcra SAP No</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_WAERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Para birimi anahtarı</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

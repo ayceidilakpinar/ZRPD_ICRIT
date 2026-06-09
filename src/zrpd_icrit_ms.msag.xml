@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZRPD_ICRIT_MS</ARBGB>
+    <MASTERLANG>T</MASTERLANG>
+    <STEXT>İcra Süreci Mesajları</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZRPD_ICRIT_MS</ARBGB>
+     <MSGNR>000</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZRPD_ICRIT_MS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>İcra ödeme kalemlerine &amp; işlemi yapılamaz !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZRPD_ICRIT_MS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&amp; numaralı icra görüntüleniyor</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZRPD_ICRIT_MS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Kalan icradan fazla kesinti girilemez !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZRPD_ICRIT_MS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>&amp; numaralı personel yaratıldı.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZRPD_ICRIT_MS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp; Bilgi tipi kaydı yaratılamadı( &amp; ) !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZRPD_ICRIT_MS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp; Bilgi tipi kaydı yaratıldı( &amp; ).</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
